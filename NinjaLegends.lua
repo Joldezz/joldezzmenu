@@ -1,25 +1,3 @@
-game.StarterGui:SetCore("SendNotification", {
-    Title = "Joldezz Menu";
-    Text = "Loading";
-    Icon = "rbxassetid://6108728129";
-    Duration = 2;
-})
-wait(1.5)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "Joldezz Menu";
-    Text = "Loading Sucessfull";
-    Icon = "rbxassetid://6108728129";
-    Duration = 10;
-})
-sound = Instance.new("Sound")
-
-sound.SoundId = "rbxassetid://6034656129"
-
-sound.Parent = game.Workspace
-
-sound.Volume = 50
-
-sound:Play()
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
 local player = game:GetService("Players").LocalPlayer
 local char = player.Character
@@ -31,7 +9,7 @@ local hoopfolder = game:GetService("Workspace").Hoops
 local bossfolder = game:GetService("Workspace").bossFolder
 
 local UI = Material.Load({
-     Title = "Joldezz Menu || Ninja Legends",
+     Title = "Lineyx Menu",
      Style = 1,
      SizeX = 400,
      SizeY = 300,
