@@ -322,17 +322,3 @@ Page2.Dropdown({
     end,
     Options = {"TheSharkke"}
 })
-Page2.Dropdown({
-    Text = "Scripters",
-    Callback = function(value)
-        print("Scripters")
-    end,
-    Options = {"JeZZoON","M3lkowo","HighSet"}
-})
-Page2.Dropdown({
-    Text = "Special Thanks",
-    Callback = function(value)
-        print("Special Thanks")
-    end,
-    Options = {"5cr1pton"}
-})
